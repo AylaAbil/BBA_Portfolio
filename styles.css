@@ -356,6 +356,9 @@ margin: 0;
   "img1 content1"
   "img2 content2"
   "img3 content3"
+  "img4 content4"
+  "img5 content5"
+  "img6 content6"
   ;
 }
 .workGrid img {
@@ -373,7 +376,16 @@ margin: 0;
 .img3 {
   grid-area: img3;
 }
-.img1, .img2, .img3, .content1, .content2, .content3 {
+.img4 {
+  grid-area: img4;
+}
+.img5 {
+  grid-area: img5;
+}
+.img6 {
+  grid-area: img6;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .content1, .content2, .content3, .content4, .content5, .content6  {
   padding: 80px;
 }
 .content1 {
@@ -383,6 +395,15 @@ margin: 0;
   grid-area: content2;
 }
 .content3 {
+  grid-area: content3;
+}
+.content4 {
+  grid-area: content1;
+}
+.content5 {
+  grid-area: content2;
+}
+.content6 {
   grid-area: content3;
 }
 
