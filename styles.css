@@ -207,8 +207,9 @@ z-index: 1;
    width: 1000px;
    margin: -100px 0 0 -50px;
    padding: 50px;
-   padding-top: 100%;
-   font-size: 25px;
+   padding-top: 25%;
+   font-size: 40px;
+   margin-bottom: 100%;
    
    background: #121212;
    list-style-type: none;
