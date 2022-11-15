@@ -76,7 +76,7 @@ body {
 font-weight: 700;
 color: #C4955C; 
 line-height: 1.5;
-margin: 0; 
+margin-left: 10px; 
  }
 /**********************************************************************************/ 
  /* My Work Section */
@@ -91,6 +91,7 @@ margin: 0;
   text-align: left;
   padding-top: 0;
   background-color:#121212;
+  margin-left: 10px;
 }
 .workGrid {
   display: grid;
