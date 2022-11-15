@@ -12,14 +12,14 @@ margin: 1px;
  /* Define Default Global Font Sizes */
  
  h1 {
-     font-size: 40px;
+     font-size: 60px;
      font-family:'Bebas Neue';
      ;
  }
  
  h2 {
      font-size: 32px;
-     font-family: 'futura';
+     font-family: 'Montserrat Alternates', sans-serif;
  }
  
  h3 {
@@ -44,6 +44,7 @@ margin: 1px;
      font-weight: 400;
      color: #C4955C;
      text-decoration: none;
+     font-family: 'Montserrat Alternates', sans-serif;
  }
  
  a:hover {
@@ -264,7 +265,22 @@ z-index: 1;
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
 }
-
+.workGrid {
+  display: flex;
+flex-direction: row;
+}
+.img1 {
+  width: 50%;
+}
+.img2 {
+  width: 50%;
+}
+  .content1 {
+    width: 50%;
+  }
+  .content2 {
+    width: 50%;
+  }
 
  /*Define Media Queries Which Tell the Code How Resize*/
  
@@ -286,9 +302,10 @@ z-index: 1;
  .ul menu {
   font-size: 60px;
     line-height: 100%;
-    margin-bottom: 0;
+    padding-bottom: 100%;
     width: 100%;
- }
+    position: absolute;
+  }
      h1 {
          font-size: 30px;
      }
@@ -312,6 +329,29 @@ z-index: 1;
          padding: 0;
          text-align: center;
      }
+     .card {
+      width: 100%;
+  }
+  
+  .card img {
+      width: 100%;
+  }
+  .workGrid {
+    display: flex;
+  flex-direction: row;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .img2 {
+    width: 100%;
+  }
+    .content1 {
+      width: 100%;
+    }
+    .content2 {
+      width: 100%;
+    }
    
  }
  
@@ -343,6 +383,23 @@ z-index: 1;
      .card img {
          width: 100%;
      }
+     .workGrid {
+      display: flex;
+    flex-direction: row;
+    }
+    .img1 {
+      width: 100%;
+    }
+    .img2 {
+      width: 100%;
+    }
+      .content1 {
+        width: 100%;
+      }
+      .content2 {
+        width: 100%;
+      }
+     
  }
   
  button {
@@ -375,15 +432,15 @@ z-index: 1;
 
   /* My Work Section */
 .myWork {
-  padding: 60px 30px;
-  text-align: center;
+  padding:0 ;
+  text-align: left;
   padding-top: 0;
   background-color:#121212;
 }
 .workGrid {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: 75% 75%;
+  grid-template-rows: 400px 400px 400px;
   grid-template-areas:
   "img1 content1"
   "img2 content2"
@@ -395,7 +452,7 @@ z-index: 1;
 }
 .workGrid img {
   width: 100%;
-  max-width: 250px;
+  max-width: 400px;
   margin: 0 auto;
   display: block;
 }
@@ -418,7 +475,7 @@ z-index: 1;
   grid-area: img6;
 }
 .img1, .img2, .img3, .img4, .img5, .img6, .content1, .content2, .content3, .content4, .content5, .content6  {
-  padding: 80px;
+  padding: 0px;
 }
 .content1 {
   grid-area: content1;
