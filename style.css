@@ -76,7 +76,7 @@ body {
 font-weight: 700;
 color: #C4955C; 
 line-height: 1.5;
-margin-left: 10px; 
+margin: 40px; 
  }
 /**********************************************************************************/ 
  /* My Work Section */
@@ -117,6 +117,9 @@ margin-left: 10px;
 }
 .img3 {
   grid-area: img3;
+}
+.content1, .content2, .content3{
+  margin: 40px;
 }
 .img1, .img2, .img3, .content1, .content2, .content3 {
   padding: 80px;
@@ -382,8 +385,11 @@ transform: none;
   .nav-mobile {
     display: block;
     background-color: #121212;
+    
   }
-
+  .content1, .content2, .content3{
+    margin: 10%;
+  }
     h1 {
         font-size: 30px;
     }
@@ -411,7 +417,7 @@ transform: none;
     .flexContainer{
       width: 25%;
     }
-    .flexContaine div{
+    .flexContainer div{
       width: 25%;
     }
 }
