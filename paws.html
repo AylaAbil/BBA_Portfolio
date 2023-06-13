@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <meta content="width=device-width, height=device-height, initial-scale=1" name="viewport">
     <meta charset="UTF-8" />
+   
     <!--Link to Call in Css File-->
     <link rel="stylesheet" href="styles.css" />
     <!--Favicon-->
@@ -91,6 +92,33 @@
         </div>
       </div>
     </section>
+    <!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="images/UserInterviewStickyNotes.png" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/AffinityDiagram.png" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/ProtoPersona.png" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/StoryBoard.png" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
 
     <!--Section My UX Skills------------------------------------------------------------------>
    
@@ -169,5 +197,3 @@
   </footer>
 </body>
 </html>
-
-

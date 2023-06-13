@@ -1,6 +1,8 @@
 body {
   margin: 10%;
   background-color: #121212;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 header {
   background-color: #C4955C;
@@ -72,7 +74,7 @@ footer li {
 
 /* Define Global Css*************************/
 body {
-  font-family: 'Bebas Neue';
+font-family: 'Bebas Neue';
 font-weight: 700;
 color: #C4955C; 
 line-height: 1.5;
@@ -162,6 +164,7 @@ h5 {
 p {
   font-size: 16px;
   font-weight: 400;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 a {
@@ -343,6 +346,8 @@ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 {
 padding: 10px 0;
 font-size: 22px;
+margin-left: .5px;
+margin:100px;
 }
 
 /*
@@ -520,3 +525,51 @@ button {
 }
 
 
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#img text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
