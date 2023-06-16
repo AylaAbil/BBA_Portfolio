@@ -2,18 +2,13 @@ body {
   background-color: #121212;
   font-family:'Playfair Display', serif;;
   font-weight: 700;
-  color: #C4955C;
+  color: 	#E6BE8A;
   line-height: 1.5;
   margin: 10%;
   margin-top: 0;
   margin-bottom: 0;
 }
-mobile-hero-container {
-  display: none;
-}
-mobile-hero-container_copy {
-  display: none;
-}
+
 
 /*END*/
 /* Define Default Global Font Sizes */
@@ -42,7 +37,7 @@ p {
 a {
   font-size: 16px;
   font-weight: 400;
-  color: #C4955C;
+  color: 	#E6BE8A;
   text-decoration: none;
   font-family: 'Playfair Display', serif;
 }
@@ -135,7 +130,7 @@ nav {
 .column {
   width: 20%;
   margin: 20px;
-  border: 1px solid #C4955C;
+  border: 1px solid 	#E6BE8A;
   border-radius: 4px;
 }
 .column h3 {
@@ -170,7 +165,7 @@ nav {
 footer {
   text-align: center;
   padding: 40px;
-  color: #C4955C;
+  color: 	#E6BE8A;
 }
 footer ul {
   display: flex;
@@ -187,7 +182,7 @@ footer li {
 /*END*/
 
 /*Define Media Queries Which Tell the Code How Resize*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .nav-mobile {
       display: block;
       background-color: #121212;
@@ -260,26 +255,12 @@ footer li {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 5px solid #C4955C;
+    border: 5px solid 	#E6BE8A;
     border-radius: .3em;
   }
-  mobile-hero-container {
-    margin: 40px;
-    padding: 10px;
-    display: block;
-    border: 5px solid #C4955C;
-    border-radius: .3em;
-    text-align: center;
-  }
-  mobile-margin-bottom_five {
-    text-align: center;
-    }
-    mobile-hero-container_sub-copy {
-      text-align: center;
-      }
-  mobile-hero-container_copy{
-    text-align: center;
-  }
+ 
+  
+  
   nav {
       display: none;
   }
@@ -288,9 +269,7 @@ footer li {
       background-color: #121212;
   }
   
-  .hero-container {
-    display: none;
-  }
+
 
   .golden-btn{
     text-align: center;
@@ -396,7 +375,7 @@ footer li {
 }
 #menuToggle a {
   text-decoration: none;
-  color: #C4955C;
+  color: 	#E6BE8A;
   transition: color 0.3s ease;
 }
 #menuToggle input {
@@ -418,7 +397,7 @@ footer li {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #C4955C;
+  background: 	#E6BE8A;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -435,7 +414,7 @@ footer li {
 #menuToggle input:checked~span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #C4955C;
+  background: 	#E6BE8A;
 }
 #menuToggle input:checked~span:nth-last-child(3) {
   opacity: 0;
